@@ -1,0 +1,14 @@
+{
+  "name": "vodafone-tech-test",
+  "version": "0.0.1",
+  "description": "A helper function that will be used to determine the output",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha \"./**/*.test.js\""
+  },
+  "author": "Mike Miller <mike@mikemiller.uk>",
+  "license": "ISC",
+  "devDependencies": {
+    "mocha": "^6.2.0"
+  }
+}
