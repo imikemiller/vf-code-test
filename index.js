@@ -1,3 +1,5 @@
+const fs = require('fs')
+const getProcessingPageHelper = require('./getProcessingPage/index')
 /**
  
   Vodafone coding challenge
@@ -41,9 +43,21 @@
  * @param {array} data 
  */
 function getProcessingPage(data) {
-
+  getProcessingPageHelper(data).then(result => {
+    console.log(result);
+  })
 }
 
+/**
+ * Retrieve sample data from a JSON file
+ */
+let filePath = process.argv[2];
+if (!filePath) throw Error('No JSON file')
 
-
+/**
+ * Parse and call function
+ */
+let file = fs.readFileSync(filePath);
+let data = JSON.parse(file);
+getProcessingPage(data)
 

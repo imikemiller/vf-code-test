@@ -4,7 +4,8 @@
   "description": "A helper function that will be used to determine the output",
   "main": "index.js",
   "scripts": {
-    "test": "mocha \"./**/*.test.js\""
+    "test": "mocha --timeout 10000 \"./**/*.test.js\"",
+    "proof": "mocha --grep @proofs --timeout 10000 \"./**/*.test.js\""
   },
   "author": "Mike Miller <mike@mikemiller.uk>",
   "license": "ISC",
