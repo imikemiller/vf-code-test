@@ -14,7 +14,7 @@ const lookups = {
         [ERROR_INCORRECT_DETAILS]: 'Incorrect details have been entered'
     },
     titles: {
-        [STATE_ERROR]: 'Error Page',
+        [STATE_ERROR]: 'Error page',
         [STATE_SUCCESS]: 'Order complete'
     }
 }

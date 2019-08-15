@@ -36,6 +36,9 @@ const getProcessingPageHelper = require('./getProcessingPage/index')
   - Provide the code and a description of how to run it
 **/
 
+/**
+ * Please see README.md for descriptions of how to run the code
+ */
 
 
 /**
